@@ -6,7 +6,7 @@
   }
   .container {
     display: grid;
-    margin-left: 30%;
+    margin-left: 10%;
   }
   .header {
     width: 600px;
@@ -79,7 +79,7 @@
     width: 600px;
     height: 80vh;
     overflow-y: scroll;
-    background-image: url(../Assets/images/bg.jpeg);
+    background-image: url(./assets/background.jpeg);
     background-attachment: fixed;
   }
   .chatbox .week {
@@ -98,7 +98,7 @@
       top: -4px;
   }
   .leftside {
-    max-width: 140px;
+    max-width: 240px;
     background: #f7fcf6;
     padding: 10px;
     border-radius: 10px;
@@ -107,17 +107,18 @@
     cursor: pointer;
   }
   .rightside {
-    max-width: 140px;
+    max-width: 240px;
     background: #e2ffc7;
     padding: 10px;
     border-radius: 10px;
+    padding-right: 5px;
     margin: 20px 0px;
     cursor: pointer;
-    margin-left: 460px;
+    margin-left: 320px;
     
   }
   .rightside .check{
-    margin-left: 32%;
+    margin-left: 40%;
   }
   .leftside .check{
     margin-left: 45%;
